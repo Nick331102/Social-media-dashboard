@@ -186,6 +186,7 @@ body {
     color: var(--main-number);
     font-weight: 600;
     font-family: var(--main-font);
+    letter-spacing: 1.7px;
 
 }
 
@@ -213,6 +214,7 @@ body {
     color: var(--main-number);
     margin: 40px 0 10px;
     font-family: var(--main-font);
+    letter-spacing: 1.7px;
 }
 
 .bottom__grid--card {
