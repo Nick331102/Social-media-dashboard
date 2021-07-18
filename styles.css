@@ -186,7 +186,7 @@ body {
     color: var(--main-number);
     font-weight: 600;
     font-family: var(--main-font);
-    letter-spacing: 1.7px;
+    letter-spacing: 1.5px;
 
 }
 
@@ -214,7 +214,7 @@ body {
     color: var(--main-number);
     margin: 40px 0 10px;
     font-family: var(--main-font);
-    letter-spacing: 1.7px;
+    letter-spacing: 1.5px;
 }
 
 .bottom__grid--card {
@@ -283,6 +283,13 @@ body {
 @media (max-width: 706px) {
     .line {
         opacity: 1;
+    }
+}
+
+@media (max-width: 507px) {
+    .social__media {
+        font-size: 1.7rem;
+
     }
 }
 
