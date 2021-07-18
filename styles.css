@@ -8,7 +8,7 @@
     --sub-text-color: #8C98C6;
     --main-number: white;
     --card-background: #252B42;
-    font-family: 'Roboto Slab', serif;
+    --main-font: 'Roboto Slab', serif;
     --body-background: #1D1F29;
     --main-number-font: 'Montserrat', sans-serif;
 }
@@ -48,7 +48,7 @@ input[type='checkbox'] {
     border-radius: 20px;
     position: relative;
 
-    
+
 }
 
 input:checked[type='checkbox'] {
@@ -95,6 +95,7 @@ input:checked[type='checkbox']:after {
     color: var(--main-number);
     font-size: 1.4rem;
     margin-right: 10px;
+    font-family: var(--main-font);
 }
 
 .line {
@@ -103,7 +104,7 @@ input:checked[type='checkbox']:after {
     background: var(--main-number);
     margin-bottom: 40px;
     opacity: 0;
-    
+
 }
 
 .social__media--user {
@@ -184,13 +185,15 @@ body {
 .social__media {
     color: var(--main-number);
     font-weight: 600;
+    font-family: var(--main-font);
 
 }
 
 .total__followers {
     color: white;
     margin-bottom: 30px;
-    color: var(--sub-text-color)
+    color: var(--sub-text-color);
+    font-family: var(--main-font);
 }
 
 .facebook {
@@ -209,6 +212,7 @@ body {
 .overview {
     color: var(--main-number);
     margin: 40px 0 10px;
+    font-family: var(--main-font);
 }
 
 .bottom__grid--card {
@@ -241,6 +245,7 @@ body {
 .data__title {
     color: var(--sub-text-color);
     font-weight: 500;
+    font-family: var(--main-font);
 }
 
 .bottom__card--total {
